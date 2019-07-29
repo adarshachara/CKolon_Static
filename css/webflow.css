@@ -49,7 +49,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
@@ -284,10 +284,12 @@ figcaption {
   text-align: center;
 }
 ul,
+font-family: proxima-nova, sans-serif;
 ol {
   margin-top: 0px;
   margin-bottom: 10px;
   padding-left: 40px;
+    font-family: proxima-nova, sans-serif;
 }
 .w-list-unstyled {
   padding-left: 0;
@@ -852,7 +854,7 @@ textarea.w-select {
   line-height: 12px;
   text-align: center;
   color: #999;
-  font-family: serif;
+  font-family: proxima-nova, sans-serif;
 }
 .w-widget-twitter-count-shim .w-widget-twitter-count-clear {
   position: relative;
@@ -1203,7 +1205,7 @@ textarea.w-select {
 .w-lightbox-backdrop {
   color: #000;
   cursor: auto;
-  font-family: serif;
+  font-family: proxima-nova, sans-serif;
   font-size: medium;
   font-style: normal;
   font-variant: normal;
@@ -1226,7 +1228,7 @@ textarea.w-select {
   bottom: 0;
   left: 0;
   color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Ubuntu, "Segoe UI", Verdana, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: 300;
