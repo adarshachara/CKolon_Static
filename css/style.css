@@ -425,9 +425,7 @@ background-image: url('../images/part_ban.jpg');
 }
 
 ul {
-    font-size: 24px;
     font-family: proxima-nova, sans-serif;
-    font-weight: 300;
 }
 
 
@@ -730,6 +728,7 @@ background-image: url('../images/datacenter_banner.jpg');
     font-size: 28px;
     line-height: 24px;
     margin-top: 10px;
+    font-family: proxima-nova, sans-serif;
 }
 
 .datacenter_content {
