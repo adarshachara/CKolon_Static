@@ -424,6 +424,11 @@ background-image: url('../images/part_ban.jpg');
     width: 100%;
 }
 
+ul {
+    font-size: 24px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+}
 
 
 /* raj */
@@ -831,6 +836,10 @@ background-image: url('../images/mobile.jpg');
 
 .clearfix {
   overflow: auto;
+}
+
+.pad-top2 {
+    padding-top: 2%;
 }
 
 .learn_bt_outzoho:hover {
