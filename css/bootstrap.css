@@ -1096,8 +1096,8 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
-  font-size: inherit;
+font-family: proxima-nova, sans-serif;
+    font-size: inherit;
   line-height: inherit;
 }
 /*

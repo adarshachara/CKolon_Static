@@ -367,6 +367,7 @@ label {
   vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
+    font-family: proxima-nova, sans-serif;
 }
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
@@ -402,6 +403,7 @@ fieldset[disabled] .w-select {
 textarea.w-input,
 textarea.w-select {
   height: auto;
+    font-family: proxima-nova, sans-serif;
 }
 .w-select {
   background-color: #f3f3f3;
