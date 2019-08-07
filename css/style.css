@@ -165,6 +165,30 @@ margin-bottom: 0px;
     background-color: #ff9802;
     width: 25%;
 }
+
+.col_blu-bg1 {
+
+    background-color: #95C6E8;
+    width: 25%;
+}
+
+.col_blu-bg2 {
+
+    background-color: #6FC4FF;
+    width: 25%;
+}
+
+.col_blu-bg3 {
+
+    background-color: #319DE8;
+    width: 25%;
+}
+
+.col_blu-bg4 {
+
+    background-color: #0087E5;
+    width: 25%;
+}
     
 .col_zoho {
     width: 33.333%;
@@ -996,5 +1020,29 @@ background-image: url('../images/mobile.jpg');
 .col_org-bg4 {
 
     background-color: #ff9802;
+    display: block;
+}
+    
+    .col_blu-bg1 {
+
+    background-color: #95C6E8;
+    display: block;
+}
+
+.col_blu-bg2 {
+
+    background-color: #6FC4FF;
+    display: block;
+}
+
+.col_blu-bg3 {
+
+    background-color: #319DE8;
+    display: block;
+}
+
+.col_blu-bg4 {
+
+    background-color: #0087E5;
     display: block;
 }
