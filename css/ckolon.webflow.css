@@ -8,7 +8,7 @@
 .ckolon_quick_links {
   position: static;
   top: 0px;
-  height: 30px;
+/*  height: 30px;*/
   background-color: hsla(189.12280701754383, 77.38%, 56.67%, 1.00);
 }
 
@@ -77,7 +77,7 @@
 }
 
 .columns {
-  height: 40px;
+  height: 50px;
 }
 
 .top_links {
@@ -100,6 +100,7 @@
   padding-right: 10px;
   padding-left: 0px;
   text-decoration: none;
+    padding-top: 10px;
 }
 
 .link-block-2 {
@@ -443,7 +444,20 @@
   border: 1px solid #000;
 }
 
+.ext_bt {
+  border-style: solid;
+  border-width: 2px;
+  border-color: hsla(189.33333333333331, 77.14%, 65.69%, 1.00);
+  background-color: hsla(208.00000000000003, 0.00%, 100.00%, 1.00);
+  font-family: proxima-nova, sans-serif;
+  color: hsla(189.33333333333331, 77.14%, 65.69%, 1.00);
+  font-weight: 600;
+}
 
+.ext_bt:hover {
+  background-color: hsla(188.67469879518072, 76.15%, 57.25%, 0.26);
+  color: hsla(188.67469879518072, 76.15%, 57.25%, 1.00);
+}
 
 .buy_bt {
   margin-left: 20px;
@@ -866,8 +880,7 @@ margin-bottom: 0px;
   border-style: none;
   border-width: 1px;
   border-color: hsla(208.00000000000003, 82.57%, 57.25%, 1.00);
-  background-color: #0ad10a;
-/*  background-image: url('../images/help_desk.png');*/
+ background-color: #3ccce6;/*  background-image: url('../images/help_desk.png');*/
   background-position: 0% 50%;
   background-size: 30px;
   background-repeat: no-repeat;
@@ -887,7 +900,7 @@ margin-bottom: 0px;
   border-style: none;
   border-width: 1px;
   border-color: hsla(208.00000000000003, 82.57%, 57.25%, 1.00);
-  background-color: #3BCCE6;
+  background-color: #3ccce6;
 /*  background-image: url('../images/help_desk.png');*/
   background-position: 0% 50%;
   background-size: 30px;
@@ -898,7 +911,7 @@ margin-bottom: 0px;
 }
 
 .login_bt:hover {
-  color: #000;
+  color: #404040;
 }
 
 .button-11 {
@@ -1188,7 +1201,7 @@ margin-bottom: 0px;
 
 .top_right {
   position: static;
-  padding-top: 24px;
+/*  padding-top: 24px;*/
 }
 
 .div-block-26 {

@@ -77,6 +77,71 @@
 			</div>
 		</div>
 	</div>
+    
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            
+            <div class="modal-body video">
+                    <iframe width="720" height="480" src="https://www.youtube.com/embed/eMzCI7S1P9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+            
+<!--
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Introduction Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+                </div>
+           
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+
+            </div>
+-->
+        </div>
+    </div>
+    <!--//model-->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="aws" tabindex="-1" role="dialog" aria-labelledby="aws" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            
+            <div class="modal-body video">
+                    <iframe width="720" height="480" src="https://www.youtube.com/embed/eMzCI7S1P9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="gcp" tabindex="-1" role="dialog" aria-labelledby="gcp" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            
+            <div class="modal-body video">
+                    <iframe width="720" height="480" src="https://www.youtube.com/embed/YIEpdjy5Vww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="azure" tabindex="-1" role="dialog" aria-labelledby="azure" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            
+            <div class="modal-body video">
+                    <iframe width="720" height="480" src="https://www.youtube.com/embed/KXkBZCe699A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+    
+    <!--//model-->
+    
+    
 	<script>
 		$('.toggle').click(function(){
 		  // Switches the Icon
@@ -106,28 +171,21 @@
         </div>
         <div class="column-7 w-col w-col-6">
           <div class="div-block-13">
+              <a href="#" data-toggle="modal" data-target="#myModal"  class="btn login_bt w-button"><i class="fas fa-sign-in-alt"></i> Signin / Signup</a>
               <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-search"></i> Search</a>
               <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-user"></i> My Profile</a>
               <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-cart-plus"></i> 0 Items <span>$0.00</span></a>
+              <a href="helpdesk.html" type="button" class="btn help_bt w-button"><i class="fas fa-headset"></i> Help Desk</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="columns-6 w-row">
+    <div class="columns-6 w-row" style="background-color: #f2f2f2;">
       <div class="w-col w-col-6">
           <div class="div-block"><a href="index.html"> <img src="images/Ckolon_logo.svg" alt="" class="image"></a></div>
       </div>
       <div class="top_right w-col w-col-6">
-        <div class="div-block-14">
-            <a href="#" data-toggle="modal" data-target="#myModal"  class="btn login_bt w-button"><i class="fas fa-sign-in-alt"></i> Signin / Signup</a>
-            <a href="helpdesk.html" type="button" class="btn help_bt w-button"><i class="fas fa-headset"></i> Help Desk</a>
-
-<!--            <button  onclick="alert('Hello world!')" class="btn help_bt w-button"><i class="fas fa-headset"></i> Help Desk</button>-->
-<!--            <a href="javascript:;" class="help_bt w-button"></a>-->
-        </div>
-      </div>
-    </div>
-    <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
+        <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
       <nav role="navigation" class="w-nav-menu"><a href="index.html" class="nav-link-4 w-nav-link"><strong>Home</strong></a>
         <div data-delay="0" data-hover="1" class="w-dropdown">
           <div class="dropdown-toggle w-dropdown-toggle">
@@ -151,7 +209,7 @@
                 <!-- <a href="hardware.html" class="w-dropdown-link">Computer Hardware Services</a>-->
                 <a href="datacenter.html" class="w-dropdown-link">Data Centre Design &amp; Setup</a>
                 <a href="mobile.html" class="w-dropdown-link">Mobile App Design &amp; Development</a>
-                <a href="ithelpdesk.html" class="w-dropdown-link">IT Helpdesk</a>
+                <a href="ithelpdesk.html" class="w-dropdown-link">IT Support Services</a>
                 <a href="website.html" class="w-dropdown-link">Website Design &amp; Development</a>
             </nav>
             
@@ -174,6 +232,9 @@
         <a href="javascript:;" class="nav-link-4 w-nav-link">Contact us</a>
         </nav>
     </div>
+      </div>
+    </div>
+    
   </div>
 
   <div class="ckolon_banner_section">
@@ -266,8 +327,8 @@
                             <div class="div-block-2">
                               <h1 class="heading">Amazon Web Services</h1>
                               <p class="paragraph">A great place to get started. A better place to evolve. Starting at $3.50 USD per month.</p>
-                                <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                                <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
+                                <a href="javascript:;" type="button" class="btn button-2 w-button" data-toggle="modal" data-target="#aws"><i class="fas fa-play-circle"></i> Play Demo</a>
+                                <a href="aws_landing.html" target="_blank" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
                                 
                                 
                               </div>
@@ -288,8 +349,8 @@
                             <div class="div-block-2">
                               <h1 class="heading">Microsoft Azure Services</h1>
                               <p class="paragraph">We will help you transform your business by guiding you on your technology needs, helping you to achieve scalability and fast-paced growth.</p>
-                                <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                                <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
+                                <a href="javascript:;" type="button" class="btn button-2 w-button" data-toggle="modal" data-target="#azure"><i class="fas fa-play-circle"></i> Play Demo</a>
+                                <a href="azure_landing.html" target="_blank" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
                               </div>
                           </div>
                             <div class="w-col w-col-1"></div>
@@ -308,8 +369,8 @@
                             <div class="div-block-2">
                               <h1 class="heading">Google Cloud Services</h1>
                               <p class="paragraph">Evolve your business with our innovative and proficient Google Cloud services. Get the amazing cloud experience from the best in class service partner.</p>
-                                <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                                <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
+                                <a href="javascript:;" type="button" class="btn button-2 w-button" data-toggle="modal" data-target="#gcp"><i class="fas fa-play-circle"></i> Play Demo</a>
+                                <a href="https://cloud.google.com/" target="_blank" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
                               </div>
                           </div>
                             <div class="w-col w-col-1"></div>
@@ -466,7 +527,7 @@
             <h3 class="sf_heading">Amazon Web Services</h3>
               <p class="cloud_subheading">Reliable. Affordable. Inexpensive</p>
               <p class="cloud_paragraph">Scale your business with the help of affordable functionality, storage capacity, delivery of content through AWS.</p>
-              <a href="javascript:;" type="button" class="btn button_cs2 w-button"> Get started for free</a>
+              <a href="aws.amazon.com/free" target="_blank" type="button" class="btn ext_bt w-button"> Get started for free</a>
               <a href="javascript:;" type="button" class="btn button_cs1 w-button"> Contact Sales</a>       
           </div>
         </div>
@@ -476,7 +537,7 @@
             <h3 class="sf_heading">Microsoft Azure</h3>
               <p class="cloud_subheading">Flexible. Limitless </p>
               <p class="cloud_paragraph">Build, test, deploy, and manage cloud services as well as cloud applications via data centres managed by Microsoft.</p>
-              <a href="javascript:;" type="button" class="btn button_cs2 w-button"> Get started for free</a>
+              <a href="https://azure.microsoft.com/en-us/free/" target="_blank" type="button" class="btn w-button ext_bt"> Get started for free</a>
               <a href="javascript:;" type="button" class="btn button_cs1 w-button"> Contact Sales</a>             
           </div>
         </div>
@@ -486,7 +547,7 @@
             <h3 class="sf_heading">Google Cloud</h3>
               <p class="cloud_subheading">Flexible. Limitless </p>
               <p class="cloud_paragraph">Build, test, deploy, and manage cloud services as well as cloud applications via data centres managed by Google.<br></p>
-              <a href="javascript:;" type="button" class="btn button_cs2 w-button"> Get started for free</a>
+              <a href="https://cloud.google.com/" target="_blank" type="button" class="btn ext_bt w-button"> Get started for free</a>
               <a href="javascript:;" type="button" class="btn button_cs1 w-button"> Contact Sales</a>           
           </div>
         </div>
@@ -510,7 +571,7 @@
             <h3 class="sf_heading">IBM Cloud Services</h3>
               <p class="cloud_subheading">Reliable. Affordable. Inexpensive</p>
               <p class="cloud_paragraph">Scale your business with the help of affordable functionality, storage capacity, delivery of content through IBM.</p>
-              <a href="javascript:;" type="button" class="btn button_cs2 w-button"> Get started for free</a>
+              <a href="https://cloud.ibm.com/registration" target="_blank"  type="button" class="btn ext_bt w-button"> Get started for free</a>
               <a href="javascript:;" type="button" class="btn button_cs1 w-button"> Contact Sales</a>        
           </div>
         </div>
@@ -520,7 +581,7 @@
             <h3 class="sf_heading">VMware</h3>
               <p class="cloud_subheading">Flexible. Limitless </p>
               <p class="cloud_paragraph">Build, test, deploy, and manage cloud services as well as cloud applications via data centres managed by Vmware.<br></p>
-              <a href="javascript:;" type="button" class="btn button_cs2 w-button"> Get started for free</a>
+              <a href="https://cloud.vmware.com/" target="_blank"  type="button" class="btn ext_bt w-button"> Get started for free</a>
               <a href="javascript:;" type="button" class="btn button_cs1 w-button"> Contact Sales</a>           
           </div>
         </div>
@@ -531,7 +592,7 @@
             <h3 class="sf_heading">Alibaba Cloud Services</h3>
               <p class="cloud_subheading">Flexible. Limitless </p>
               <p class="cloud_paragraph">Build, test, deploy, and manage cloud services as well as cloud applications via data centres managed by Alibaba.</p>
-              <a href="javascript:;" type="button" class="btn button_cs2 w-button"> Get started for free</a>
+              <a href="https://account.alibabacloud.com/register/intl_register.htm?spm=a3c0i.254666.1097638.46.4d206210wWhB4J " target="_blank"  type="button" class="btn ext_bt w-button"> Get started for free</a>
               <a href="javascript:;" type="button" class="btn button_cs1 w-button"> Contact Sales</a>             
           </div>
         </div>
@@ -689,7 +750,7 @@
         <div class="w-col w-col-4">
             <img src="images/Mask%20Group%2025.jpg" width="100%" style="padding-bottom: 2%;" alt="" class="image-11">
           <div class="iets_card">
-            <h4 class="heading-6">IT Helpdesk</h4>
+            <h4 class="heading-6">IT Support Services</h4>
             <p class="card_content">Optimize your IT helpdesk with CKolon team of seasoned professionals. Provide seamless and better services to the customers. Streamline the support and improve the time to response with CKolon. </p><a href="ithelpdesk.html" class="content_link">See Solutions</a></div>
         </div>
       </div>
