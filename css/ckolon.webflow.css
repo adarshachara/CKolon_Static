@@ -411,6 +411,11 @@
   padding-left: 20px;
 }
 
+.columns-4zoho {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 .div-block-5 {
   padding-right: 10px;
   padding-left: 10px;
@@ -1596,6 +1601,14 @@ margin-bottom: 0px;
   font-family: proxima-nova, sans-serif;
 }
 
+.nav_div_crm {
+  width: 90%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: proxima-nova, sans-serif;
+}
+
 .text-field {
   width: 20px;
 }
@@ -1613,6 +1626,11 @@ margin-bottom: 0px;
 
 .slider-3 {
   height: 650px;
+}
+
+.slider-zoho {
+/*    height: auto;*/
+  height: 600px;
 }
 
 .slide-6 {
@@ -1642,6 +1660,20 @@ margin-bottom: 0px;
   -ms-flex-align: center;
   align-items: center;
 }
+
+.div-block-crm {
+  display: block;
+  padding-top: 2%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 
 .heading_banner {
   padding-top: 0px;
