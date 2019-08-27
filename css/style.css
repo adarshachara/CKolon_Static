@@ -840,11 +840,29 @@ background-image: url('../images/mobile.jpg');
   text-align: center;
 
 }
+
 .div-block-16 {
 
   background-color: #f2f2f2;
   text-align: right;
 
+}
+
+.head-search input[type="text"] {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #3bcce6;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    outline: none;
+}
+
+.head-search {
+    margin-top: 12%;
 }
 
 .learn_bt_outzoho {

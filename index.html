@@ -31,54 +31,6 @@
   <script type="text/javascript" src="./js/jssor.slider.min.js"></script>
 </head>
 <body class="body">
-
-
-
-    <!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-
-
-					Sign In & Sign Up
-					<button type="button" class="close" data-toggle="modal" data-target="#myModal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				</div>
-				<section>
-					<div class="modal-body">
-						<div class="w3_login_module">
-							<div class="module form-module">
-							  <div class="toggle"><i class="fas fa-edit"></i>
-								<div class="tooltip">Register</div>
-							  </div>
-							  <div class="form">
-								<h3>Login to your account</h3>
-								<form action="#" method="post">
-								  <input type="text" name="Username" placeholder="Username" required="">
-								  <input type="password" name="Password" placeholder="Password" required="">
-								  <input type="submit" value="Login">
-								</form>
-							  </div>
-							  <div class="form">
-								<h3>Create an account</h3>
-								<form action="#" method="post">
-								  <input type="text" name="Username" placeholder="Username" required="">
-								  <input type="password" name="Password" placeholder="Password" required="">
-								  <input type="email" name="Email" placeholder="Email Address" required="">
-								  <input type="text" name="Phone" placeholder="Phone Number" required="">
-								  <input type="submit" value="Register">
-								</form>
-							  </div>
-							  <div class="cta"><a href="#">Forgot your password?</a></div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
-    
-    
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -141,368 +93,218 @@
     
     <!--//model-->
     
-    
-	<script>
-		$('.toggle').click(function(){
-		  // Switches the Icon
-		  $(this).children('i').toggleClass('fa-pencil');
-		  // Switches the forms
-		  $('.form').animate({
-			height: "toggle",
-			'padding-top': 'toggle',
-			'padding-bottom': 'toggle',
-			opacity: "toggle"
-		  }, "slow");
-		});
-	</script>
-<!-- //bootstrap-pop-up -->
 
-
-  <div class="ckolon_top_menu">
-    <div class="ckolon_quick_links">
-      <div class="columns w-row">
-        <div class="column w-col w-col-6">
-          <a href="javascript:;" class="link-block w-inline-block">
-            <h5 class="top_links">Education</h5>
-          </a>
-          <a href="javascript:;" class="link-block-2 w-inline-block">
-            <h5 class="top_links">Community</h5>
-          </a>
-        </div>
-        <div class="column-7 w-col w-col-6">
-          <div class="div-block-13">
-              <a href="#" data-toggle="modal" data-target="#myModal"  class="btn login_bt w-button"><i class="fas fa-sign-in-alt"></i> Signin / Signup</a>
-              <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-search"></i> Search</a>
-              <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-user"></i> My Profile</a>
-              <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-cart-plus"></i> 0 Items <span>$0.00</span></a>
-              <a href="helpdesk.html" type="button" class="btn help_bt w-button"><i class="fas fa-headset"></i> Help Desk</a>
+<div class="ckolon_top_menu">
+    <div class="quicklink_70">
+      <div class="ckolon_quick_links">
+        <div class="columns w-row">
+          <div class="column w-col w-col-6">
+            <a href="#" class="link-block w-inline-block">
+              <h5 class="top_links">EDUCATION</h5>
+            </a>
+            <a href="#" class="link-block-2 w-inline-block">
+              <h5 class="top_links">COMMUNITY</h5>
+            </a>
+            <a href="#" class="link-block-3 w-inline-block">
+              <h5 class="top_links">HELP DESK</h5>
+            </a>
+          </div>
+          <div class="column-7 w-col w-col-6">
+            <div class="div-block-13"><a href="#" class="add_cart_bt w-button">CART ( 0 )</a></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="columns-6 w-row" style="background-color: #f2f2f2;">
-      <div class="w-col w-col-6">
-          <div class="div-block"><a href="index.html"> <img src="images/Ckolon_logo.svg" alt="" class="image"></a></div>
-      </div>
-      <div class="top_right w-col w-col-6">
-        <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
-      <nav role="navigation" class="w-nav-menu"><a href="index.html" class="nav-link-4 w-nav-link"><strong>Home</strong></a>
-        <div data-delay="0" data-hover="1" class="w-dropdown">
-          <div class="dropdown-toggle w-dropdown-toggle">
-            <div class="w-icon-dropdown-toggle"></div>
-            <div>Cloud Services</div>
-          </div>
-          <nav class="w-dropdown-list">
-              <a href="aws_landing.html" class="w-dropdown-link">Amazon Web Services</a>
-              <a href="azure_landing.html" class="w-dropdown-link">Microsoft Azure</a>
-              <a href=zoho.html class="w-dropdown-link">ZOHO</a>
-          </nav>
-        </div>
-        <div data-delay="0" data-hover="1" class="w-dropdown">
-          <div class="dropdown-toggle w-dropdown-toggle">
-            <div class="w-icon-dropdown-toggle"></div>
-            <div>IT Services</div>
-          </div>
-          <nav class="w-dropdown-list">
-                <a href="javascript:;" class="w-dropdown-link">Annual Maintenance Contract</a>
-                <a href="cloudcompute.html" class="w-dropdown-link">Cloud Computing</a>
-                <!-- <a href="hardware.html" class="w-dropdown-link">Computer Hardware Services</a>-->
-                <a href="datacenter.html" class="w-dropdown-link">Data Centre Design &amp; Setup</a>
-                <a href="mobile.html" class="w-dropdown-link">Mobile App Design &amp; Development</a>
-                <a href="ithelpdesk.html" class="w-dropdown-link">IT Support Services</a>
-                <a href="website.html" class="w-dropdown-link">Website Design &amp; Development</a>
-            </nav>
-            
-        </div>
-        <a href="javascript:;" class="nav-link w-nav-link">Products</a>
-        <div data-delay="0" data-hover="1" class="w-dropdown">
-          <div class="dropdown-toggle w-dropdown-toggle">
-            <div class="w-icon-dropdown-toggle"></div>
-            <div>About CKolon</div>
-          </div>
-          <nav class="w-dropdown-list">
-              <a href="aboutus.html" class="w-dropdown-link">Company</a>
-              <a href="partners.html" class="w-dropdown-link">Business Partners</a>
-              <a href="javascript:;" class="w-dropdown-link">Team</a>
-              <a href="javascript:;" class="w-dropdown-link">Careers</a>
-          </nav>
-        </div>
-        <a href="javascript:;" class="nav-link-2 w-nav-link">News &amp; Media</a>
-        <a href="javascript:;" class="nav-link-3 w-nav-link">Blog</a>
-        <a href="javascript:;" class="nav-link-4 w-nav-link">Contact us</a>
-        </nav>
-    </div>
-      </div>
-    </div>
-    
   </div>
-
-  <div class="ckolon_banner_section">
-
-
-      <script type="text/javascript">
-          jQuery(document).ready(function ($) {
-
-              var jssor_1_options = {
-                $AutoPlay: 1,
-                $SlideDuration: 800,
-                $SlideEasing: $Jease$.$OutQuint,
-                $ArrowNavigatorOptions: {
-                  $Class: $JssorArrowNavigator$
-                },
-                $BulletNavigatorOptions: {
-                  $Class: $JssorBulletNavigator$
-                }
-              };
-
-              var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-              /*#region responsive code begin*/
-
-              var MAX_WIDTH = 3000;
-
-              function ScaleSlider() {
-                  var containerElement = jssor_1_slider.$Elmt.parentNode;
-                  var containerWidth = containerElement.clientWidth;
-
-                  if (containerWidth) {
-
-                      var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                      jssor_1_slider.$ScaleWidth(expectedWidth);
-                  }
-                  else {
-                      window.setTimeout(ScaleSlider, 30);
-                  }
-              }
-
-              ScaleSlider();
-
-              $(window).bind("load", ScaleSlider);
-              $(window).bind("resize", ScaleSlider);
-              $(window).bind("orientationchange", ScaleSlider);
-              /*#endregion responsive code end*/
-          });
-      </script>
-      <style>
-          /*jssor slider loading skin spin css*/
-          .jssorl-009-spin img {
-              animation-name: jssorl-009-spin;
-              animation-duration: 1.6s;
-              animation-iteration-count: infinite;
-              animation-timing-function: linear;
-          }
-
-          @keyframes jssorl-009-spin {
-              from { transform: rotate(0deg); }
-              to { transform: rotate(360deg); }
-          }
-
-          /*jssor slider bullet skin 032 css*/
-          .jssorb032 {position:absolute;}
-          .jssorb032 .i {position:absolute;cursor:pointer;}
-          .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
-          .jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
-          .jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
-          .jssorb032 .i.idn {opacity:.3;}
-
-          /*jssor slider arrow skin 051 css*/
-          .jssora051 {display:block;position:absolute;cursor:pointer;}
-          .jssora051 .a {fill:none;stroke:#383838;stroke-width:360;stroke-miterlimit:10;}
-          .jssora051:hover {opacity:.8;}
-          .jssora051.jssora051dn {opacity:.5;}
-          .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
-      </style>
-      <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
-          <!-- Loading Screen -->
-          <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-              <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" />
-          </div>
-          <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
-              <div>
-                  <div class="slide w-slide">
-                      <div class="w-container-hero">
-                        <div class="columns-2 w-row">
-                          <div class="w-col w-col-6">
-                            <div class="div-block-2">
-                              <h1 class="heading">Amazon Web Services</h1>
-                              <p class="paragraph">A great place to get started. A better place to evolve. Starting at $3.50 USD per month.</p>
-                                <a href="javascript:;" type="button" class="btn button-2 w-button" data-toggle="modal" data-target="#aws"><i class="fas fa-play-circle"></i> Play Demo</a>
-                                <a href="aws_landing.html" target="_blank" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                                
-                                
-                              </div>
-                          </div>
-                            <div class="w-col w-col-1"></div>
-                          <div class="w-col w-col-3">
-                            <div class="div-block-2"><img src="images/AWS_Logo.svg"  width="90%"  style="float: right;"   alt="" class="image-15"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-              <div>
-                  <div class="slide w-slide">
-                      <div class="w-container-hero">
-                        <div class="columns-2 w-row">
-                          <div class="w-col w-col-6">
-                            <div class="div-block-2">
-                              <h1 class="heading">Microsoft Azure Services</h1>
-                              <p class="paragraph">We will help you transform your business by guiding you on your technology needs, helping you to achieve scalability and fast-paced growth.</p>
-                                <a href="javascript:;" type="button" class="btn button-2 w-button" data-toggle="modal" data-target="#azure"><i class="fas fa-play-circle"></i> Play Demo</a>
-                                <a href="azure_landing.html" target="_blank" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                              </div>
-                          </div>
-                            <div class="w-col w-col-1"></div>
-                          <div class="w-col w-col-3">
-                            <div class="div-block-2"><img src="images/Azure_Logo.svg"  width="100%"  style="float: right;"   alt="" class="image-15"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-              <div>
-                  <div class="slide w-slide">
-                      <div class="w-container-hero">
-                        <div class="columns-2 w-row">
-                          <div class="w-col w-col-6">
-                            <div class="div-block-2">
-                              <h1 class="heading">Google Cloud Services</h1>
-                              <p class="paragraph">Evolve your business with our innovative and proficient Google Cloud services. Get the amazing cloud experience from the best in class service partner.</p>
-                                <a href="javascript:;" type="button" class="btn button-2 w-button" data-toggle="modal" data-target="#gcp"><i class="fas fa-play-circle"></i> Play Demo</a>
-                                <a href="https://cloud.google.com/" target="_blank" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                              </div>
-                          </div>
-                            <div class="w-col w-col-1"></div>
-                          <div class="w-col w-col-3">
-                            <div class="div-block-2"><img src="images/google-cloud-1.svg"  width="90%"  style="float: right;"   alt="" class="image-15"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-              
-              
-          </div>
-          <!-- Bullet Navigator -->
-          <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-              <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                  <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                      <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                  </svg>
-              </div>
-          </div>
-          <!-- Arrow Navigator -->
-          <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-              <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                  <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-              </svg>
-          </div>
-          <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-              <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                  <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-              </svg>
-          </div>
-      </div>
-
-
-
-<!--
-    <div data-animation="slide" data-interval="5000" data-infinite="1" class="slider w-slider">
-      <div class="mask w-slider-mask">
-        <div class="slide w-slide">
-          <div class="w-container-hero">
-            <div class="columns-2 w-row">
-              <div class="w-col w-col-6">
-                <div class="div-block-2">
-                  <h1 class="heading">Amazon Web Services</h1>
-                  <p class="paragraph">A great place to get started. A better place to evolve. Starting at $3.50 USD per month.</p>
-                    <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                    <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                  </div>
-              </div>
-                <div class="w-col w-col-1"></div>
-              <div class="w-col w-col-3">
-                <div class="div-block-2"><img src="images/AWS_Logo.svg"  width="90%"  style="float: right;"   alt="" class="image-15"></div>
-              </div>
+  <div class="brand_menu">
+    <div class="brand_div_menu">
+      <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar-2 w-nav">
+          <a href="#" class="w-nav-brand"><img src="images/logo.svg" width="73" alt="" class="image-16"></a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div data-hover="1" data-delay="0" class="w-dropdown">
+            <div class="dropdown-toggle-5 w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div>Cloud Services</div>
             </div>
+            <nav class="w-dropdown-list">
+                <a href="aws_landing.html" class="dropdown-link-2 w-dropdown-link">Amazon AWS</a>
+                <a href="azure_landing.html" class="dropdown-link-3 w-dropdown-link">Microsoft</a>
+                <a href="javascrip:;" class="dropdown-link-4 w-dropdown-link">Google</a>
+                <a href="javascrip:;" class="dropdown-link-5 w-dropdown-link">Alibaba</a>
+                <a href="javascrip:;" class="dropdown-link-6 w-dropdown-link">IBM</a>
+                <a href="javascrip:;" class="dropdown-link-7 w-dropdown-link">VMware</a>
+                <a href="zoho.html" class="dropdown-link-8 w-dropdown-link">Zoho</a>
+              </nav>
           </div>
-        </div>
-
-          <div class="slide w-slide">
-          <div class="w-container-hero">
-            <div class="columns-2 w-row">
-              <div class="w-col w-col-6">
-                <div class="div-block-2">
-                  <h1 class="heading">Microsoft Azure Services</h1>
-                  <p class="paragraph">We will help you transform your business by guiding you on your technology needs, helping you to achieve scalability and fast-paced growth.</p>
-                    <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                    <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                  </div>
-              </div>
-                <div class="w-col w-col-1"></div>
-              <div class="w-col w-col-3">
-                <div class="div-block-2"><img src="images/Azure_Logo.svg" width="100%" alt="" class="image-16"></div>
-              </div>
+          <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+            <div class="w-dropdown-toggle">
+              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="text-block">IT Services</div>
             </div>
-          </div>
-        </div>
-
-          <div class="slide w-slide">
-          <div class="w-container-hero">
-            <div class="columns-2 w-row">
-              <div class="w-col w-col-6">
-                <div class="div-block-2">
-                  <h1 class="heading">Google Cloud Services</h1>
-                  <p class="paragraph">Evolve your business with our innovative and proficient Google Cloud services. Get the amazing cloud experience from the best in class service partner.</p>
-                    <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                    <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                  </div>
-              </div>
-                <div class="w-col w-col-1"></div>
-              <div class="w-col w-col-3">
-                <div class="div-block-2"><img src="images/google-cloud-1.svg" width="80%" style="float: right;" alt="" class="image-17"></div>
-              </div>
+            <nav class="w-dropdown-list">
+                <a href="javascrip:;" class="dropdown-link-2 w-dropdown-link">Annual Maintenance Contract</a>
+                <a href="cloudcompute.html" class="dropdown-link-2 w-dropdown-link">Cloud Computing Meet</a>
+                <a href="datacenter.html" class="dropdown-link-2 w-dropdown-link">Data Centre Design &amp; Setup</a>
+                <a href="ithelpdesk.html" class="dropdown-link-2 w-dropdown-link">IT Helpdesk</a>
+<!--                <a href="hardware.html" class="dropdown-link-2 w-dropdown-link">Computer Hardware Services</a>-->
+                <a href="website.html" class="dropdown-link-2 w-dropdown-link">Website Design &amp; Development</a>
+                <a href="mobile.html" class="dropdown-link-2 w-dropdown-link">Mobile App Design &amp; Development</a>
+              </nav>
+          </div><a href="#" class="nav-link-8 w-nav-link">Products</a>
+          <div data-hover="1" data-delay="0" class="w-dropdown">
+            <div class="dropdown-toggle-6 w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div>About CKolon</div>
             </div>
+            <nav class="w-dropdown-list">
+                <a href="aboutus.html" class="dropdown-link-2 w-dropdown-link">Company</a>
+                <a href="partners.html" class="dropdown-link-2 w-dropdown-link">Business Partners</a>
+                <a href="javascrip:;" class="dropdown-link-2 w-dropdown-link">Team</a>
+                <a href="javascrip:;" class="dropdown-link-2 w-dropdown-link">Careers</a>
+              </nav>
           </div>
+            <a href="javascrip:;" class="nav-link-7 w-nav-link">News &amp; Media</a>
+            <a href="javascrip:;" class="nav-link-6 w-nav-link">Blog</a>
+            <a href="javascrip:;" class="nav-link-5 w-nav-link">Contact Us</a>
+            
+          <div class="w3ls-bnr-icons social-icon navbar-right">
+						<div class="head-search">
+				<form action="#" method="post">
+					<div class="formborder">
+						<input type="text" placeholder="Search..." name="Search..." required="">
+					</div>
+				</form>
+			</div>
+ 
+					</div>
+          
+          </nav>
+        <div class="w-nav-button">
+          <div class="w-icon-nav-menu"></div>
         </div>
-
-          <div class="slide w-slide">
-          <div class="w-container-hero">
-            <div class="columns-2 w-row">
-              <div class="w-col w-col-6">
-                <div class="div-block-2">
-                  <h1 class="heading">Amazon Web Services</h1>
-                  <p class="paragraph">A great place to get started. A better place to evolve. Starting at $3.50 USD per month.</p>
-                    <a href="javascript:;" type="button" class="btn button-2 w-button"><i class="fas fa-play-circle"></i> Play Demo</a>
-                    <a href="javascript:;" type="button" class="btn button w-button"><i class="fas fa-handshake"></i> Getting Started</a>
-                  </div>
-              </div>
-                <div class="w-col w-col-1"></div>
-              <div class="w-col w-col-3">
-                <div class="div-block-2"><img src="images/AWS_Logo.svg"  width="90%"  style="float: right;"   alt="" class="image-15"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
-
-      <div class="w-slider-arrow-left">
-        <div class="w-icon-slider-left"></div>
-      </div>
-      <div class="w-slider-arrow-right">
-        <div class="w-icon-slider-right"></div>
-      </div>
-      <div class="w-slider-nav w-round"  style="margin-bottom: -1%;"></div>
--->
     </div>
-
-
-
-
-
-<hr style="margin-top: 2%;">
+  </div>
+  <div class="section_banner">
+    <div>
+      <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider-3 w-slider">
+        <div class="w-slider-mask">
+          <div class="slide-6 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="columns-11 w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                    <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#aws">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/AWS_Logo.svg" width="270" alt="" class="image-17"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-7 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                   <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#azure">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/Azure_Logo.svg" width="350" alt="" class="image-18"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-8 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                    <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#gcp">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/google-cloud-1.svg" width="270" alt="" class="image-19"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-9 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                    <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#aws">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/IBM-Cloud.svg" width="270" alt="" class="image-20"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-10 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                   <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#aws">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/Vmware.svg" width="450" alt="" class="image-20"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-11 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                   <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#aws">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/alibaba-cloud-01.svg" width="350" alt="" class="image-20"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-12 w-slide">
+            <div class="nav_div_70">
+              <div class="div-block-34">
+                <div class="w-row">
+                  <div class="w-col w-col-6 w-col-stack">
+                    <h1 class="heading_banner">More Than Just Cloud</h1>
+                    <p class="paragraph">Breaking down barriers of emerging technologies and redefining the digital world</p>
+                      <a href="javascript:;" class="button-banner1 w-button" data-toggle="modal" data-target="#aws">Play Demo</a>
+                      <a href="#" class="button-banner2 w-button">Getting Started</a>
+                    </div>
+                  <div class="w-col w-col-6 w-col-stack"><img src="images/Image_51_A55_Rectangle_18_pattern.png" alt="" class="image-20"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-slider-arrow-left">
+          <div class="w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="w-slider-nav w-round"></div>
+      </div>
+    </div>
+  </div>
 
 
     <div class="ckolon_banner_section" style="min-height: 730px;">

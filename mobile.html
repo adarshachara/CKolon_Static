@@ -28,147 +28,97 @@
 </head>
 <body class="body">
     
-    
-    
-    <!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-                    
-                  
-					Sign In & Sign Up
-					<button type="button" class="close" data-toggle="modal" data-target="#myModal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div>
-				<section>
-					<div class="modal-body">
-						<div class="w3_login_module">
-							<div class="module form-module">
-							  <div class="toggle"><i class="fas fa-edit"></i>
-								<div class="tooltip">Register</div>
-							  </div>
-							  <div class="form">
-								<h3>Login to your account</h3>
-								<form action="#" method="post">
-								  <input type="text" name="Username" placeholder="Username" required="">
-								  <input type="password" name="Password" placeholder="Password" required="">
-								  <input type="submit" value="Login">
-								</form>
-							  </div>
-							  <div class="form">
-								<h3>Create an account</h3>
-								<form action="#" method="post">
-								  <input type="text" name="Username" placeholder="Username" required="">
-								  <input type="password" name="Password" placeholder="Password" required="">
-								  <input type="email" name="Email" placeholder="Email Address" required="">
-								  <input type="text" name="Phone" placeholder="Phone Number" required="">
-								  <input type="submit" value="Register">
-								</form>
-							  </div>
-							  <div class="cta"><a href="#">Forgot your password?</a></div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
-	<script>
-		$('.toggle').click(function(){
-		  // Switches the Icon
-		  $(this).children('i').toggleClass('fa-pencil');
-		  // Switches the forms  
-		  $('.form').animate({
-			height: "toggle",
-			'padding-top': 'toggle',
-			'padding-bottom': 'toggle',
-			opacity: "toggle"
-		  }, "slow");
-		});
-	</script>
-<!-- //bootstrap-pop-up -->
-    
-    
-  <div class="ckolon_top_menu">
-    <div class="ckolon_quick_links">
-      <div class="columns w-row">
-        <div class="column w-col w-col-6">
-          <a href="javascript:;" class="link-block w-inline-block">
-            <h5 class="top_links">Education</h5>
-          </a>
-          <a href="javascript:;" class="link-block-2 w-inline-block">
-            <h5 class="top_links">Community</h5>
-          </a>
-        </div>
-        <div class="column-7 w-col w-col-6">
-          <div class="div-block-13">
-              <a href="#" data-toggle="modal" data-target="#myModal"  class="btn login_bt w-button"><i class="fas fa-sign-in-alt"></i> Signin / Signup</a>
-              <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-search"></i> Search</a>
-              <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-user"></i> My Profile</a>
-              <a href="javascript:;" class="top_bt w-top"> <i class="fas fa-cart-plus"></i> 0 Items <span>$0.00</span></a>
-              <a href="helpdesk.html" type="button" class="btn help_bt w-button"><i class="fas fa-headset"></i> Help Desk</a>
+   <div class="ckolon_top_menu">
+    <div class="quicklink_70">
+      <div class="ckolon_quick_links">
+        <div class="columns w-row">
+          <div class="column w-col w-col-6">
+            <a href="#" class="link-block w-inline-block">
+              <h5 class="top_links">EDUCATION</h5>
+            </a>
+            <a href="#" class="link-block-2 w-inline-block">
+              <h5 class="top_links">COMMUNITY</h5>
+            </a>
+            <a href="#" class="link-block-3 w-inline-block">
+              <h5 class="top_links">HELP DESK</h5>
+            </a>
           </div>
-            
+          <div class="column-7 w-col w-col-6">
+            <div class="div-block-13"><a href="#" class="add_cart_bt w-button">CART ( 0 )</a></div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="columns-6 w-row" style="background-color: #f2f2f2;">
-      <div class="w-col w-col-6">
-          <div class="div-block"><a href="index.html"> <img src="images/Ckolon_logo.svg" alt="" class="image"></a></div>
-      </div>
-      <div class="top_right w-col w-col-6">
-        <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
-      <nav role="navigation" class="w-nav-menu"><a href="index.html" class="nav-link-4 w-nav-link"><strong>Home</strong></a>
-        <div data-delay="0" data-hover="1" class="w-dropdown">
-          <div class="dropdown-toggle w-dropdown-toggle">
-            <div class="w-icon-dropdown-toggle"></div>
-            <div>Cloud Services</div>
-          </div>
-          <nav class="w-dropdown-list">
-              <a href="aws_landing.html" class="w-dropdown-link">Amazon Web Services</a>
-              <a href="azure_landing.html" class="w-dropdown-link">Microsoft Azure</a>
-              <a href=zoho.html class="w-dropdown-link">ZOHO</a>
-          </nav>
-        </div>
-        <div data-delay="0" data-hover="1" class="w-dropdown">
-          <div class="dropdown-toggle w-dropdown-toggle">
-            <div class="w-icon-dropdown-toggle"></div>
-            <div>IT Services</div>
-          </div>
-          <nav class="w-dropdown-list">
-                <a href="javascript:;" class="w-dropdown-link">Annual Maintenance Contract</a>
-                <a href="cloudcompute.html" class="w-dropdown-link">Cloud Computing</a>
-                <!-- <a href="hardware.html" class="w-dropdown-link">Computer Hardware Services</a>-->
-                <a href="datacenter.html" class="w-dropdown-link">Data Centre Design &amp; Setup</a>
-                <a href="mobile.html" class="w-dropdown-link">Mobile App Design &amp; Development</a>
-                <a href="ithelpdesk.html" class="w-dropdown-link">IT Support Services</a>
-                <a href="website.html" class="w-dropdown-link">Website Design &amp; Development</a>
-            </nav>
-            
-        </div>
-        <a href="javascript:;" class="nav-link w-nav-link">Products</a>
-        <div data-delay="0" data-hover="1" class="w-dropdown">
-          <div class="dropdown-toggle w-dropdown-toggle">
-            <div class="w-icon-dropdown-toggle"></div>
-            <div>About CKolon</div>
-          </div>
-          <nav class="w-dropdown-list">
-              <a href="aboutus.html" class="w-dropdown-link">Company</a>
-              <a href="partners.html" class="w-dropdown-link">Business Partners</a>
-              <a href="javascript:;" class="w-dropdown-link">Team</a>
-              <a href="javascript:;" class="w-dropdown-link">Careers</a>
-          </nav>
-        </div>
-        <a href="javascript:;" class="nav-link-2 w-nav-link">News &amp; Media</a>
-        <a href="javascript:;" class="nav-link-3 w-nav-link">Blog</a>
-        <a href="javascript:;" class="nav-link-4 w-nav-link">Contact us</a>
-        </nav>
-    </div>
-      </div>
-    </div>
-    
   </div>
-  <div class="mobile_banner">
+  <div class="brand_menu" style=" background-color: #f2f2f2; position: relative;">
+    <div class="brand_div_menu">
+      <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar-2 w-nav">
+          <a href="index.html" class="w-nav-brand"><img src="images/logo.svg" width="73" alt="" class="image-16"></a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div data-hover="1" data-delay="0" class="w-dropdown">
+            <div class="dropdown-toggle-5 w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div>Cloud Services</div>
+            </div>
+            <nav class="w-dropdown-list">
+                <a href="aws_landing.html" class="dropdown-link-2 w-dropdown-link">Amazon AWS</a>
+                <a href="azure_landing.html" class="dropdown-link-3 w-dropdown-link">Microsoft</a>
+                <a href="javascrip:;" class="dropdown-link-4 w-dropdown-link">Google</a>
+                <a href="javascrip:;" class="dropdown-link-5 w-dropdown-link">Alibaba</a>
+                <a href="javascrip:;" class="dropdown-link-6 w-dropdown-link">IBM</a>
+                <a href="javascrip:;" class="dropdown-link-7 w-dropdown-link">VMware</a>
+                <a href="zoho.html" class="dropdown-link-8 w-dropdown-link">Zoho</a>
+              </nav>
+          </div>
+          <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+            <div class="w-dropdown-toggle">
+              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="text-block"><strong>IT Services</strong></div>
+            </div>
+            <nav class="w-dropdown-list">
+                <a href="javascrip:;" class="dropdown-link-2 w-dropdown-link">Annual Maintenance Contract</a>
+                <a href="cloudcompute.html" class="dropdown-link-2 w-dropdown-link">Cloud Computing Meet</a>
+                <a href="datacenter.html" class="dropdown-link-2 w-dropdown-link">Data Centre Design &amp; Setup</a>
+                <a href="ithelpdesk.html" class="dropdown-link-2 w-dropdown-link">IT Helpdesk</a>
+<!--                <a href="hardware.html" class="dropdown-link-2 w-dropdown-link">Computer Hardware Services</a>-->
+                <a href="website.html" class="dropdown-link-2 w-dropdown-link">Website Design &amp; Development</a>
+                <a href="mobile.html" class="dropdown-link-2 w-dropdown-link">Mobile App Design &amp; Development</a>
+              </nav>
+          </div><a href="#" class="nav-link-8 w-nav-link">Products</a>
+          <div data-hover="1" data-delay="0" class="w-dropdown">
+            <div class="dropdown-toggle-6 w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div>About CKolon</div>
+            </div>
+            <nav class="w-dropdown-list w--current">
+                <a href="aboutus.html" class="dropdown-link-2 w-dropdown-link w--current">Company</a>
+                <a href="partners.html" class="dropdown-link-2 w-dropdown-link">Business Partners</a>
+                <a href="javascrip:;" class="dropdown-link-2 w-dropdown-link">Team</a>
+                <a href="javascrip:;" class="dropdown-link-2 w-dropdown-link">Careers</a>
+              </nav>
+          </div>
+            <a href="javascrip:;" class="nav-link-7 w-nav-link">News &amp; Media</a>
+            <a href="javascrip:;" class="nav-link-6 w-nav-link">Blog</a>
+            <a href="javascrip:;" class="nav-link-5 w-nav-link">Contact Us</a>
+            <div class="w3ls-bnr-icons social-icon navbar-right">
+						<div class="head-search">
+				<form action="#" method="post">
+					<div class="formborder">
+						<input type="text" placeholder="Search..." name="Search..." required="">
+					</div>
+				</form>
+			</div>
+ 
+					</div>
+          </nav>
+        <div class="w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="mobile_banner" style="padding-top: 4%;">
           <div class="w-container-hero">
             <div class="about_col-2 w-row">
               <div class="w-col w-col-10">
