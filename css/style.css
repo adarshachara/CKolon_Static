@@ -12,6 +12,16 @@ span.psw {
   padding-top: 16px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */

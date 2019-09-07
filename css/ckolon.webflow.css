@@ -459,18 +459,31 @@
 
 
 .learn_bt {
+    border-style: solid;
+  border-width: 2px;
+  border-color: hsla(189.33333333333331, 77.14%, 65.69%, 1.00);
+  background-color: hsla(208.00000000000003, 0.00%, 100.00%, 1.00);
+  font-family: proxima-nova, sans-serif;
+  color: hsla(189.33333333333331, 77.14%, 65.69%, 1.00);
+  font-weight: 600;
+/*
   border-style: solid;
   border-width: 2px;
   border: 1px solid #3BCCE6;
-    background-color: #3BCCE6;
+    background-color: #fff;
   font-family: proxima-nova, sans-serif;
-  color: #fff;
+  color: #3BCCE6;
   font-weight: 600;
+*/
 }
 
 .learn_bt:hover {
-  background-color: #000;
+    background-color: hsla(188.67469879518072, 76.15%, 57.25%, 0.26);
+  color: hsla(188.67469879518072, 76.15%, 57.25%, 1.00);
+/*
+  background-color: #3BCCE6;
   border: 1px solid #000;
+*/
 }
 
 .ext_bt {
@@ -489,23 +502,37 @@
 }
 
 .buy_bt {
+  border-style: solid;
+  border-width: 2px;
+  border-color: hsla(39, 100%, 50%, 1.00);
+  background-color: hsla(208.00000000000003, 0.00%, 100.00%, 1.00);
+  font-family: proxima-nova, sans-serif;
+  color: hsla(39, 100%, 50%, 1.00);
+  font-weight: 600;
+/*
   margin-left: 20px;
-/*  padding-left: 30px;*/
+padding-left: 30px;
   border-style: solid;
       border: 1px solid #f90;
-    background-color: #f90;
-/*  background-image: url('../images/buy_now.png');*/
+    background-color: #fff;
+background-image: url('../images/buy_now.png')
   background-position: 0% 50%;
   background-size: 35px;
   background-repeat: no-repeat;
   font-family: proxima-nova, sans-serif;
   color: #fff;
   font-weight: 600;
+*/
 }
 
 .buy_bt:hover {
+    background-color: hsla(39, 100%, 50%, 0.26);
+    color: hsla(39, 100%, 50%, 1.00);
+}
+/*
   background-color: #000;
   border: 1px solid #000;
+*/
 }
 
 .container-2 {
