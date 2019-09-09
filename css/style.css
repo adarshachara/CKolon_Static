@@ -1,3 +1,219 @@
+/*--/header --*/
+
+header.mainheader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+nav.navbar.second {
+    border: none !important;
+    transition: all 1s ease;
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+    order: 2;
+}
+
+/*--/navbar--*/
+
+.navbar {
+    padding: 0em 2em;
+    border-bottom: 1px solid rgba(243, 242, 242, 0.41);
+    background: transparent !important;
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%
+}
+
+a.navbar-brand img {
+   /* width: 70%; */
+}
+
+/*--logo--*/
+
+h1 a.navbar-brand {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo i {
+    color: #03cce6;
+    text-shadow: none;
+}
+
+/*--logo--*/
+
+a.navbar-b li.nav-item {
+    margin: 0 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0.3em 1.2em;
+    color: #ffffff;
+    background: transparent;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    background: transparent;
+    color: #0ebeff;
+}
+
+.dropdown-item {
+    padding: 0.5em 1.5rem;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu.second {
+    min-width: 9rem !important;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+    color: #fff;
+}
+
+a.nav-link.request {
+    padding: 0em 1.2em;
+    color: #ffffff;
+    background: transparent;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/*---*/
+
+.dropdown-toggle::after {
+    width: 0;
+    height: 0;
+    margin-left: 0;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border: 0px;
+}
+
+li.nav-item.active {
+    color: #03cce6;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #ff4081;
+    text-decoration: none;
+    background-color: #f0f0f1;
+}
+
+/*-- /nav.navbar.second --*/
+
+nav.navbar.second {
+    border: none !important;
+    transition: all 1s ease;
+}
+
+a.nav-item.nav-link.sec {
+    padding: 0.3em 1.2em;
+    color: #0ebeff;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+}
+
+a.nav-item.nav-link.sec:hover {
+    color: #ec1c24;
+}
+
+a.pagescrolldisplay {
+    visibility: hidden;
+    transition: all 0s ease;
+}
+
+nav.navbar.shrink.pagescrollfix a.pagescrolldisplay {
+    visibility: visible;
+    transition: all 0.5s ease;
+    color: #000000;
+}
+
+nav.navbar.shrink.pagescrollfix {
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 1px 0 0 #dadada;
+    position: fixed;
+    left: 0px;
+	top:0px;
+    transition: all 1.2s ease;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff !important;
+    z-index: 9;
+}
+
+a.navbar-brand.pagescrolldisplay i {
+    font-size: 2em;
+    color:#333;
+}
+
+nav.navbar.shrink .navbar-brand img {
+    /*height: 50px;
+    width: 120px; */
+    transition: all 1s ease;
+}
+
+nav.navbar.shrink a {
+   /* font-size: 14px; */
+    transition: all 1s ease;
+}
+
+nav.navbar.shrink .navbar-toggler {
+
+    transition: all 1.5s ease;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+/*-- //nav.navbar.second --*/
+
+.top-info ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    vertical-align: top;
+    margin-top: 0.4em;
+}
+
+/*-- //header --*/
+
+
 img.avatar {
   width: 40%;
   border-radius: 50%;
@@ -862,17 +1078,18 @@ background-image: url('../images/mobile.jpg');
     font-family: proxima-nova, sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
     background-color: transparent;
     border-bottom: 1px solid #3bcce6;
     border-right: 0px;
     border-left: 0px;
     border-top: 0px;
     outline: none;
+	padding-top:-5px;
 }
 
 .head-search {
-    margin-top: 12%;
+    margin-top: 7%;
 }
 
 .learn_bt_outzoho {
