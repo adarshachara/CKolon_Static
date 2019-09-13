@@ -1651,6 +1651,13 @@ margin-bottom: 0px;
 /*  background-color: #3dcde7;*/
 }
 
+/*
+.image-logo {
+  padding: 5%;
+  background-color: #3dcde7;
+}
+*/
+
 .slider-3 {
   height: 650px;
 }
@@ -1775,7 +1782,7 @@ margin-bottom: 0px;
 }
 
 .dropdown-toggle-5.w--open {
-  font-weight: 500;
+  font-weight: 500;  
 }
 
 .dropdown-link-2 {
@@ -1783,11 +1790,13 @@ margin-bottom: 0px;
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+  line-height: normal;
 }
 
 .dropdown-link-2:hover {
   background-color: #05b9d9;
   color: #fff;
+    line-height: normal;
 }
 
 .dropdown-link-3 {
@@ -1795,12 +1804,14 @@ margin-bottom: 0px;
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-3:hover {
   background-color: #05b9d9;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-4 {
@@ -1808,10 +1819,12 @@ margin-bottom: 0px;
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-4:hover {
   background-color: #05b9d9;
+    line-height: normal;
 }
 
 .dropdown-link-5 {
@@ -1819,10 +1832,12 @@ margin-bottom: 0px;
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-5:hover {
   background-color: #05b9d9;
+    line-height: normal;
 }
 
 .dropdown-link-6 {
@@ -1830,10 +1845,12 @@ margin-bottom: 0px;
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-6:hover {
   background-color: #05b9d9;
+    line-height: normal;
 }
 
 .dropdown-link-7 {
@@ -1841,20 +1858,24 @@ margin-bottom: 0px;
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-7:hover {
   background-color: #05b9d9;
+    line-height: normal;
 }
 
 .dropdown-link-8 {
   background-color: #3ccce6;
   color: #fff;
   font-weight: 500;
+    line-height: normal;
 }
 
 .dropdown-link-8:hover {
   background-color: #05b9d9;
+    line-height: normal;
 }
 
 .dropdown {
@@ -1905,7 +1926,7 @@ margin-bottom: 0px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+/*  padding-top: 40px;*/
 }
 
 .columns-11 {
@@ -1917,7 +1938,7 @@ margin-bottom: 0px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+/*  padding-top: 40px;*/
   opacity: 1;
 }
 
@@ -1925,7 +1946,7 @@ margin-bottom: 0px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+/*  padding-top: 40px;*/
   text-align: center;
 }
 
@@ -1933,7 +1954,7 @@ margin-bottom: 0px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+/*  padding-top: 40px;*/
 }
 
 
