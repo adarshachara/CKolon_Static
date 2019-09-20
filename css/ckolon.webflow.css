@@ -430,21 +430,21 @@
 .software_paragraph {
   font-family: proxima-nova, sans-serif;
   font-size: 16px;
-  line-height: 22px;
+  line-height: inherit;
   font-weight: 400;
 }
 
 .cloud_paragraph {
   font-family: proxima-nova, sans-serif;
   font-size: 15px;
-  line-height: 22px;
+  line-height: inherit;
   font-weight: 400;
 }
 
 .cloud_subheading {
   font-family: proxima-nova, sans-serif;
   font-size: 26px;
-  line-height: 22px;
+  line-height: inherit;
   font-weight: 200;
 }
 
@@ -1959,12 +1959,72 @@ margin-bottom: 0px;
 
 
 @media (max-width: 991px) {
+    
+    .button_cs1 {
+    margin-left: 0;
+    margin-top: 2%;
+    }
+        
+    .heading_banner {
+    color: #000;
+    }
+    
+    .quicklink_70 {
+    width: 100%;
+    }
   .sub_regular_content {
     margin-bottom: 0px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 10px;
   }
+    .div-block-34 {
+        padding-top: 0;
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+    .button-banner2 {
+  margin-left: 0px;
+  border: 1px solid #000;
+  border-radius: 0px;
+  background-color: #f90;
+  font-family: proxima-nova, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.button-banner2:hover {
+  background-color: #fdb122;
+}
+    
+    .button-banner1 {
+    padding-left: 14px;
+    border: 1px solid #000;
+    background-color: #000;
+/*    background-image: url(../images/play_demo.png);*/
+    background-position: 0% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.button-banner1:hover {
+      background-color: #fdb122;
+    color: #000;
+}
+    
   .sales_bt {
     margin-top: 0px;
     margin-left: 20px;
@@ -2047,6 +2107,64 @@ margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
+    
+     .button_cs1 {
+    margin-left: 0;
+    margin-top: 2%;
+    }
+    
+    .quicklink_70 {
+    width: 100%;
+    }
+    
+    .div-block-34 {
+        padding-top: 0;
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+    
+       .button-banner2 {
+  margin-left: 0px;
+  border: 1px solid #000;
+  border-radius: 0px;
+  background-color: #f90;
+  font-family: proxima-nova, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.button-banner2:hover {
+  background-color: #fdb122;
+}
+    
+    .button-banner1 {
+    padding-left: 14px;
+    border: 1px solid #000;
+    background-color: #000;
+/*    background-image: url(../images/play_demo.png);*/
+    background-position: 0% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.button-banner1:hover {
+      background-color: #fdb122;
+    color: #000;
+}
+    
   .title_heading-_center {
     font-size: 36px;
   }
@@ -2089,6 +2207,64 @@ margin-bottom: 0px;
 }
 
 @media (max-width: 479px) {
+    
+     .button_cs1 {
+    margin-left: 0;
+    margin-top: 2%;
+    }
+    .heading_banner {
+    color: #000;
+    }
+    .quicklink_70 {
+    width: 100%;
+    }
+    .div-block-34 {
+        padding-top: 0;
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+    .button-banner2 {
+  margin-left: 0px;
+  border: 1px solid #000;
+  border-radius: 0px;
+  background-color: #f90;
+  font-family: proxima-nova, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.button-banner2:hover {
+  background-color: #fdb122;
+}
+    
+    .button-banner1 {
+    padding-left: 14px;
+    border: 1px solid #000;
+    background-color: #000;
+/*    background-image: url(../images/play_demo.png);*/
+    background-position: 0% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.button-banner1:hover {
+      background-color: #fdb122;
+    color: #000;
+}
+    
   .div-block {
     text-align: center;
   }
