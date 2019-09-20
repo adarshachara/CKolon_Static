@@ -1294,6 +1294,12 @@ background-image: url('../images/mobile.jpg');
     display: block;
     text-align: left;
   }
+    
+    .col_ibm-bg {
+
+    background-color: #2B2B2B;
+    display: block;
+}
 
     
     .col_org-bg1 {
