@@ -1960,9 +1960,14 @@ margin-bottom: 0px;
 
 @media (max-width: 991px) {
     
+    .ck_cloud_services {
+        padding: 0;
+    }
+    
     .button_cs1 {
     margin-left: 0;
     margin-top: 2%;
+    border-width: 2px;
     }
         
     .heading_banner {
@@ -2108,9 +2113,14 @@ margin-bottom: 0px;
 
 @media (max-width: 767px) {
     
+    .ck_cloud_services {
+        padding: 0;
+    }
+    
      .button_cs1 {
     margin-left: 0;
     margin-top: 2%;
+    border-width: 2px;
     }
     
     .quicklink_70 {
@@ -2208,9 +2218,14 @@ margin-bottom: 0px;
 
 @media (max-width: 479px) {
     
+    .ck_cloud_services {
+        padding: 0;
+    }
+    
      .button_cs1 {
     margin-left: 0;
     margin-top: 2%;
+    border-width: 2px;
     }
     .heading_banner {
     color: #000;
