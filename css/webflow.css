@@ -926,7 +926,7 @@ textarea.w-select {
   position: relative;
   height: 300px;
   text-align: center;
-  background: #dddddd;
+  background: #fff;
   clear: both;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1010,7 +1010,7 @@ textarea.w-select {
   margin: auto;
   cursor: pointer;
   overflow: hidden;
-  color: white;
+  color: gray;
   font-size: 40px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1111,6 +1111,11 @@ textarea.w-select {
   position: static;
 }
 @media screen and (max-width: 991px) {
+    
+    .w-slider-mask {
+     height: auto; 
+    }
+    
     .w-slider-nav {
     position: relative;
     }
