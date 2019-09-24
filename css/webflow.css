@@ -244,7 +244,7 @@ blockquote {
   padding: 10px 20px;
   border-left: 5px solid #E2E2E2;
   font-size: 18px;
-  line-height: inherit;
+  line-height: 22px;
 }
 figure {
   margin: 0;
@@ -891,7 +891,7 @@ textarea.w-select {
 }
 .w-widget-twitter-count-shim.w--vertical .w-widget-twitter-count-inner {
   font-size: 18px;
-  line-height: inherit;
+  line-height: 22px;
 }
 .w-widget-twitter-count-shim.w--vertical.w--large {
   width: 76px;
@@ -1111,6 +1111,7 @@ textarea.w-select {
   position: static;
 }
 @media screen and (max-width: 991px) {
+<<<<<<< HEAD
     
     .w-slider-mask {
      height: auto; 
@@ -1119,6 +1120,8 @@ textarea.w-select {
     .w-slider-nav {
     position: relative;
     }
+=======
+>>>>>>> parent of eda066e... Responsive 1st Cut
   .w-nav[data-collapse="medium"] .w-dropdown,
   .w-nav[data-collapse="medium"] .w-dropdown-toggle {
     display: block;
@@ -1128,9 +1131,6 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
-     .w-slider-nav {
-    position: relative;
-    }
   .w-nav[data-collapse="small"] .w-dropdown,
   .w-nav[data-collapse="small"] .w-dropdown-toggle {
     display: block;
@@ -1143,9 +1143,6 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
-     .w-slider-nav {
-    position: relative;
-    }
   .w-nav[data-collapse="tiny"] .w-dropdown,
   .w-nav[data-collapse="tiny"] .w-dropdown-toggle {
     display: block;
