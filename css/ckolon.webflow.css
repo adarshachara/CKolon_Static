@@ -813,7 +813,7 @@ margin-bottom: 0px;
 }
 
 .slider-2 {
-  height: 500px;
+  height: auto;
   background-color: hsla(188.67469879518072, 76.15%, 57.25%, 1.00);
 }
 
@@ -858,6 +858,7 @@ margin-bottom: 0px;
 
 .slide-nav {
   margin-top: 0px;
+  display: contents;
 }
 
 .slide-4 {
