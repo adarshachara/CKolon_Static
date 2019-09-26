@@ -124,7 +124,7 @@
 }
 
 .slide-2 {
-  background-image: url('../images/bg-01.jpg');
+/*  background-image: url('../images/bg-01.jpg');*/
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -430,21 +430,21 @@
 .software_paragraph {
   font-family: proxima-nova, sans-serif;
   font-size: 16px;
-  line-height: 22px;
+  line-height: inherit;
   font-weight: 400;
 }
 
 .cloud_paragraph {
   font-family: proxima-nova, sans-serif;
   font-size: 15px;
-  line-height: 22px;
+  line-height: inherit;
   font-weight: 400;
 }
 
 .cloud_subheading {
   font-family: proxima-nova, sans-serif;
   font-size: 26px;
-  line-height: 22px;
+  line-height: inherit;
   font-weight: 200;
 }
 
@@ -814,7 +814,6 @@ margin-bottom: 0px;
 
 .slider-2 {
   height: 500px;
-        display: contents;
   background-color: hsla(188.67469879518072, 76.15%, 57.25%, 1.00);
 }
 
@@ -1000,17 +999,17 @@ margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
 /*  padding-left: 27px;*/
-  background-color: hsl(127, 77%, 56%);
+  background-color: limegreen;
 /*  background-image: url('../images/cart.png');*/
   background-position: 0% 50%;
   background-size: 23px;
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
   font-weight: 500;
 }
 
 .add_cart_bt:hover {
-  background-color: white;
+  background-color: transparent;
   color: #000;
 }
 
@@ -1135,7 +1134,7 @@ margin-bottom: 0px;
 
 .div-block-16 {
     background-color: #f2f2f2; 
-    text-align: center;
+    text-align: right;
 }
 
 .div-block-17 {
@@ -1660,7 +1659,9 @@ margin-bottom: 0px;
 */
 
 .slider-3 {
-  height: 650px;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 10%;
 }
 
 .slider-zoho {
@@ -1670,7 +1671,6 @@ margin-bottom: 0px;
 
 .slide-6 {
 /*  background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1740,12 +1740,10 @@ margin-bottom: 0px;
 
 .slide-7 {
 /*  background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
 }
 
 .slide-8 {
 /*  background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1753,7 +1751,6 @@ margin-bottom: 0px;
 
 .slide-9 {
 /*  background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1761,7 +1758,6 @@ margin-bottom: 0px;
 
 .slide-10 {
 /*  background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1769,12 +1765,10 @@ margin-bottom: 0px;
 
 .slide-11 {
 /* background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
 }
 
 .slide-12 {
 /*  background-image: url('../images/bg-01.jpg');*/
-    background-color: white;
 }
 
 .brand_menu {
@@ -1967,17 +1961,6 @@ margin-bottom: 0px;
 
 
 @media (max-width: 991px) {
-<<<<<<< HEAD
-    
-    .image-20 {
-        width: 80%;
-        padding-top: 5%;
-    }
-    
-    .image-18 {
-        width: 80%;
-        padding-top: 5%;
-    }
     
     .ck_cloud_services {
         padding: 0;
@@ -1996,14 +1979,59 @@ margin-bottom: 0px;
     .quicklink_70 {
     width: 100%;
     }
-=======
->>>>>>> parent of eda066e... Responsive 1st Cut
   .sub_regular_content {
     margin-bottom: 0px;
     padding-right: 10px;
     padding-bottom: 0px;
     padding-left: 10px;
   }
+    .div-block-34 {
+        padding-top: 0;
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+    .button-banner2 {
+  margin-left: 0px;
+  border: 1px solid #000;
+  border-radius: 0px;
+  background-color: #f90;
+  font-family: proxima-nova, sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.button-banner2:hover {
+  background-color: #fdb122;
+}
+    
+    .button-banner1 {
+    padding-left: 14px;
+    border: 1px solid #000;
+    background-color: #000;
+/*    background-image: url(../images/play_demo.png);*/
+    background-position: 0% 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.button-banner1:hover {
+      background-color: #fdb122;
+    color: #000;
+}
+    
   .sales_bt {
     margin-top: 0px;
     margin-left: 20px;
@@ -2086,17 +2114,6 @@ margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
-<<<<<<< HEAD
-    
-    .image-20 {
-        width: 80%;
-        padding-top: 5%;
-    }
-    
-    .image-18 {
-        width: 80%;
-        padding-top: 5%;
-    }
     
     .ck_cloud_services {
         padding: 0;
@@ -2160,8 +2177,6 @@ margin-bottom: 0px;
     color: #000;
 }
     
-=======
->>>>>>> parent of eda066e... Responsive 1st Cut
   .title_heading-_center {
     font-size: 36px;
   }
@@ -2204,17 +2219,6 @@ margin-bottom: 0px;
 }
 
 @media (max-width: 479px) {
-<<<<<<< HEAD
-    
-    .image-20 {
-        width: 80%;
-        padding-top: 5%;
-    }
-    
-    .image-18 {
-        width: 80%;
-        padding-top: 5%;
-    }
     
     .ck_cloud_services {
         padding: 0;
@@ -2278,8 +2282,6 @@ margin-bottom: 0px;
     color: #000;
 }
     
-=======
->>>>>>> parent of eda066e... Responsive 1st Cut
   .div-block {
     text-align: center;
   }

@@ -27,12 +27,8 @@ nav.navbar.second {
 }
 
 a.navbar-brand img {
-<<<<<<< HEAD
-  width: 35%;
-    padding-top: 7%;
-=======
-   /* width: 70%; */
->>>>>>> parent of eda066e... Responsive 1st Cut
+  width: 50%;
+    padding-top: 5%;
 }
 
 /*--logo--*/
@@ -418,6 +414,36 @@ margin-bottom: 0px;
 .col_blu-bg4 {
 
     background-color: #0087E5;
+    width: 25%;
+}
+
+.col_gcp-bg1 {
+
+    background-color: #F45C46;
+    width: 25%;
+}
+
+.col_gcp-bg2 {
+
+    background-color: #FEC827;
+    width: 25%;
+}
+
+.col_gcp-bg3 {
+
+    background-color: #2CB469;
+    width: 25%;
+}
+
+.col_gcp-bg4 {
+
+    background-color: #4F98F4;
+    width: 25%;
+}
+
+.col_ibm-bg {
+
+    background-color: #2B2B2B;
     width: 25%;
 }
     
@@ -878,7 +904,7 @@ div-block-6 w-col-12_zoho{
   color: #858585;
   font-size: 32px;
   font-family: proxima-nova, sans-serif;
-    line-height: 28px;
+    line-height: inherit;
     /*  padding: 15px;*/
 }
 
@@ -916,6 +942,8 @@ text-align: center;
       padding-bottom: 2%;
     /* padding: 20px; */
     text-align: center;
+          margin-left: 5%;
+    margin-right: 5%;
   }
 
   .testimonials_zoho{
@@ -1266,6 +1294,12 @@ background-image: url('../images/mobile.jpg');
     display: block;
     text-align: left;
   }
+    
+    .col_ibm-bg {
+
+    background-color: #2B2B2B;
+    display: block;
+}
 
     
     .col_org-bg1 {
@@ -1313,5 +1347,34 @@ background-image: url('../images/mobile.jpg');
 .col_blu-bg4 {
 
     background-color: #0087E5;
+    display: block;
+}
+    
+    .col_gcp-bg1 {
+
+    background-color: #F45C46;
+    display: block;
+}
+
+.col_gcp-bg2 {
+
+    background-color: #FEC827;
+    display: block;
+}
+
+.col_gcp-bg3 {
+
+    background-color: #2CB469;
+    display: block;
+}
+
+.col_gcp-bg4 {
+
+    background-color: #4F98F4;
+    display: block;
+}
+.col_ibm-bg {
+
+    background-color: #2B2B2B;
     display: block;
 }
