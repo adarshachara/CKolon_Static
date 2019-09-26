@@ -1277,6 +1277,10 @@ background-image: url('../images/mobile.jpg');
 
 @media only screen and (max-width: 600px) {
     
+    .erp_section_zoho {
+    padding-top: 259%;
+    }
+    
     .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
